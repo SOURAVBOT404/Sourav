@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 module.exports = {
 	config: {
 		name: "info",
-   aliases: ["owner", "botinfo" ],
+   aliases: ["owner", "admin" ],
 		version: "1.0",
 		author: "NTKhang",
 		countDown: 20,
@@ -18,8 +18,8 @@ module.exports = {
 	onStart: async function ({ message }) {
 		const authorName = " ⩸_𝗦𝗢𝗨𝗥𝗔𝗩 _⩸ ";
 		const ownAge = "『 ⩸_ 20 _⩸ 』";
-		const messenger = " https://m.me/sourav.nath404 ";
-		const authorFB = " https://www.facebook.com/profile.php?id=61577174606216 ";
+		const messenger = " https://m.me/sourav.nath420 ";
+		const authorFB = " https://www.facebook.com/sourav.nath420 ";
 		const authorNumber = "01880962478";
 		const Status = "⩸__𝙸𝙽 𝙰 𝚁𝙻𝚂 𝚆𝙸𝚃𝙷 𝚃𝙾𝙽𝙽𝙸__⩸";
 		const urls = [
